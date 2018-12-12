@@ -2,6 +2,14 @@
 layout: default
 ---
 
+## [GIT flight rules](2018-12-07-git-flight-rules.html)
+
+<small>2018-12-07 von Gregor J.</small>
+
+_I wrote the wrong thing in a commit message_   
+_Who you gonna call?_   
+(GIT flight rules!)
+
 ## [APT `upgrade` vs. `dist-upgrade`](2018-12-11-apt-upgrade-vs-dist-upgrade.html)
 
 <small>2018-12-11 von Gregor J.</small>
