@@ -22,6 +22,12 @@ _I wrote the wrong thing in a commit message_
 _Who you gonna call?_   
 (GIT flight rules!)
 
+## [PHPUnit code coverage ignore](2018-01-31-phpunit-code-coverage-ignore.html)
+
+<small>2018-01-31 von Gregor J.</small>
+
+_Die Feinde von 100% code coverage._
+
 ## [PHPUnit code coverage](2018-01-25-phpunit-code-coverage.html)
 
 <small>2018-01-25 von Gregor J.</small>
