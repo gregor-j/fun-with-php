@@ -21,7 +21,7 @@ Hier der Ablauf der beiden `composer` Befehle:
 
 Wie erkennbar ist, braucht ist ein `composer install` mit vorhandener `composer.lock` sehr einfach und schnell.
 
-Der [Quelltext der Grafik][res-txt], wie er mit [Planttext][planttext] erzeugt wurde.
+<small>Der [Quelltext der Grafik][res-txt], wie er mit [Planttext][planttext] erzeugt wurde.</small>
 
 [res-svg]: ressource/composer-install-vs-update.svg
 [res-txt]: ressource/composer-install-vs-update.txt
