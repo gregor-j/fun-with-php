@@ -2,6 +2,7 @@
 layout: post
 title: "Composer install vs. update"
 date: 2018-12-12
+author: @gregor-j
 categories: php
 tags: composer
 ---
