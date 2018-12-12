@@ -7,8 +7,6 @@ categories: php
 tags: composer
 ---
 
-# Composer `install` vs. `update`
-
 _Was ist der Unterschied zwischen `composer install` und `composer update`, und warum soll ich die `composer.lock` in das Repository einchecken?_
 
 Ein `composer update` sollte man nur machen, wenn man _alle_ Pakete in dem Projekt auf die aktuellste Version (gem. Einschränkungen aus der `composer.json`) bringen möchte. 
