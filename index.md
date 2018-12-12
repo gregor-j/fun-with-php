@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Gregor's fun with PHP"
+title: "Übersicht"
 ---
 
 ## [Composer `install` vs. `update`](./2018-12-12-composer-install-vs-update.html)
