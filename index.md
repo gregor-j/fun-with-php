@@ -27,3 +27,9 @@ _Who you gonna call?_
 <small>2018-01-25 von Gregor J.</small>
 
 _Woher weiß ich, dass meine Tests den gesamten Code prüfen?_
+
+## [PHP late static binding](2018-01-24-late-static-binding.html)
+
+<small>2018-01-24 von Gregor J.</small>
+
+_Hilfe, ich kann trotz Vererbung meine statische Funktion nicht aufrufen!_
