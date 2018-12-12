@@ -3,7 +3,7 @@ layout: post
 title: "PHPUnit code coverage"
 date: 2018-01-25
 author: "Gregor J."
-tags: phpunit
+tags: phpunit php codequality
 ---
 
 _Woher weiß ich, dass meine Tests den gesamten Code prüfen?_
