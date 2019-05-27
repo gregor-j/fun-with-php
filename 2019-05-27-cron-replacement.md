@@ -84,7 +84,7 @@ chmod 755 cron_replacement.sh
 docker run -it --rm -v $(pwd):/gregor --workdir /gregor busybox:latest ./cron_replacement.sh
 ```
 
-Beispiel, wie mit das Script auch nach dem logout des users noch weiterläuft:
+Beispiel, wie das Script auch nach dem logout des users noch weiterläuft:
 
 ```bash
 nohup ./cron_replacement.sh &
