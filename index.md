@@ -3,6 +3,12 @@ layout: default
 title: "Übersicht"
 ---
 
+## [Merging arrays](./2019-05-29-merging-arrays.html)
+
+<small>2019-05-29 von Gregor J.</small>
+
+_RTFM, oder die Untiefen beim Zusammenführen zweier Arrays in PHP erklärt._
+
 ## [Cron replacement](./2019-05-27-cron-replacement.html)
 
 <small>2019-05-27 von Gregor J.</small>
