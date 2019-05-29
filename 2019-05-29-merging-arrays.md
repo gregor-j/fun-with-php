@@ -64,6 +64,6 @@ Ebenso nachzulesen im [PHP.net Manual von array_merge() unter Beispiel #2][array
 
 > Die Schlüssel des ersten Arrays werden beibehalten. Falls ein Schlüssel in beiden Arrays vorkommt, wird das Element des ersten Arrays verwendet und das entsprechende Element des zweiten Arrays ignoriert.
 
-Conclusio: _In PHP solle selbst bei vermeintlich simplen Funktionen die Bedienungsanleitung gelesen werden._
+Conclusio: _In PHP sollte selbst bei vermeintlich simplen Funktionen die Bedienungsanleitung gelesen werden._
 
 [array_merge]: https://www.php.net/manual/de/function.array-merge.php#example-6208 "PHP: array_merge - Manual"
