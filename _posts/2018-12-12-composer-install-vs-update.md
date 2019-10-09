@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Composer install vs. update"
-bait: "Was ist der Unterschied zwischen `composer install` und `composer update`, und warum soll ich die `composer.lock` in das Repository einchecken?"
+bait: "Was ist der Unterschied zwischen composer install und composer update, und warum soll ich die composer.lock in das Repository einchecken?"
 date: 2018-12-12
 author: "Gregor J."
 tags: composer
