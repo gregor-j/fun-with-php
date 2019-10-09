@@ -6,12 +6,14 @@ title: "Übersicht"
 <div class="home">
 
     {% for post in site.posts %}
+    <span class="post-meta">
+        <small>
+            {{ post.date | date: "%d.%m.%Y" }} von {{ post.author }} zu {{ post.tags }}
+        </small>
+    </span>
     <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <span class="post-meta">
-        <small>{{ post.date | date: "%d.%m.%Y %H:%M" }} von {{ post.author }}</small>
-    </span>
     <p>
         <em>{{ post.bait }}</em>
     </p>
