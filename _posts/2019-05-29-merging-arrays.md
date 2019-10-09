@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Merging arrays"
+bait: "RTFM, oder die Untiefen beim Zusammenführen zweier Arrays in PHP erklärt."
 date: 2019-05-29
 author: "Gregor J."
 tags: php

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "APT upgrade vs. dist-upgrade"
+bait: "Aus der Kategorie "quälende Fragen zwischen Tür und Angel": Was ist der Unterschied zwischen `apt-get upgrade` und `apt-get dist-upgrade`?"
 date: 2018-12-11
 author: "Gregor J."
 tags: linux debian

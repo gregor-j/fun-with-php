@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cron replacement"
+bait: "Hilfe, ich habe kein `cron`! Wie kann ich einen Prozess bloss regelmäßig laufen lassen?"
 date: 2019-05-27
 author: "Gregor J."
 tags: shell

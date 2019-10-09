@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "PHPUnit code coverage"
+bait: "Woher weiß ich, dass meine Tests den gesamten Code prüfen?"
 date: 2018-01-25
 author: "Gregor J."
 tags: phpunit php codequality

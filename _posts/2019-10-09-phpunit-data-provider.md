@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "PHPUnit Data Provider"
+bait: "Wie kann ich mit PHPUnit effizient unterschiedliche Parameter für meine Funktion testen?"
 date: 2019-10-09
 author: "Gregor J."
 tags: phpunit php

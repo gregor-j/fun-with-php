@@ -9,7 +9,12 @@ title: "Übersicht"
     <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} von {{ post.author }}</span>
+    <span class="post-meta">
+        <small>{{ post.date | date: "%d.%m.%Y %H:%M" }} von {{ post.author }}</small>
+    </span>
+    <p>
+        <em>{{ post.bait }}</em>
+    </p>
     {% endfor %}
 
 </div>

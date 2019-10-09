@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "PHP late static binding"
+bait: "Hilfe, ich kann trotz Vererbung meine statische Funktion nicht aufrufen!"
 date: 2018-01-24
 author: "Gregor J."
 tags: php

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "PHPUnit code coverage ignore"
+bait: "Die erbittertsten Feinde, um bei PHPUnit eine _code coverage_ von 100% zu erreichen, sind Exceptions, die geworfen werden, wenn Systemressourcen fehlen, oder ebensolche Exceptions in privaten Funktionen."
 date: 2018-01-31
 author: "Gregor J."
 tags: phpunit php codequality

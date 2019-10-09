@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GIT flight rules"
+bait: "I wrote the wrong thing in a commit message - Who you gonna call?"
 date: 2018-12-07
 author: "Gregor J."
 tags: git
