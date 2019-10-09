@@ -96,7 +96,7 @@ class DataProviders
 }
 ```
 
-Bei der Gelegenheit sehen wir auch gleich, wie mit [PHPUnit Exceptions mittels `@expectedException` validiert][2]
+Bei der Gelegenheit sehen wir auch gleich, wie [Exceptions in PHPUnit mittels `@expectedException` validiert][2]
  werden können.
 
 ```php
