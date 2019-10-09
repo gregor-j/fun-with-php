@@ -10,8 +10,8 @@ title: "Übersicht"
         <small>
             {{ post.date | date: "%d.%m.%Y" }}
             von {{ post.author }}
-            {% if page.tags %}
-               zu <em>{{ page.tags | join: "</em> - <em>" }}</em>
+            {% if post.tags %}
+               zu <em>{{ post.tags | join: "</em> - <em>" }}</em>
             {% endif %}
         </small>
     </span>
