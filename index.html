@@ -8,7 +8,11 @@ title: "Übersicht"
     {% for post in site.posts %}
     <span class="post-meta">
         <small>
-            {{ post.date | date: "%d.%m.%Y" }} von {{ post.author }} zu {{ post.tags }}
+            {{ post.date | date: "%d.%m.%Y" }}
+            von {{ post.author }}
+            {% if page.tags %}
+               zu <em>{{ page.tags | join: "</em> - <em>" }}</em>
+            {% endif %}
         </small>
     </span>
     <h2>
