@@ -1,21 +1,11 @@
 ---
 layout: post
-title: "GIT flight rules"
-bait: "I wrote the wrong thing in a commit message - Who you gonna call?"
+title: "Wenn du etwas committet hast, und es war der falsche branch..."
+bait: "Wen rufst du dann?"
 date: 2018-12-07
 author: "Gregor J."
 tags: git
 ---
-
-_I wrote the wrong thing in a commit message_   
-_Who you gonna call?_   
-...   
-_I accidentally did a hard reset, and I want my changes back_   
-_Who you gonna call?_   
-...      
-_I committed to master instead of a new branch_   
-_Who you gonna call?_   
-...   
 
 [**GIT flight rules!**](https://github.com/k88hudson/git-flight-rules/blob/master/README.md)
 
