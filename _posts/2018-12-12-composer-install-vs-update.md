@@ -17,8 +17,10 @@ Beim Aufruf von `composer install` wird die `composer.lock` abgearbeitet. Wäre,
 
 Hier der Ablauf der beiden `composer` Befehle:
 
-[![composer install vs. update]({{ /ressource/composer-install-vs-update.svg | relative_url }})]({{ /ressource/composer-install-vs-update.svg | relative_url }})
+[![composer install vs. update][res-svg]][res-svg]
 
-<small>Der [Quelltext der Grafik]({{ /ressource/composer-install-vs-update.txt | relative_url }}), wie er mit [Planttext][planttext] erzeugt wurde.</small>
+<small>Der [Quelltext der Grafik][res-txt], wie er mit [Planttext][planttext] erzeugt wurde.</small>
 
+[res-svg]: {{/ressource/composer-install-vs-update.svg|relative_url}}
+[res-txt]: {{/ressource/composer-install-vs-update.txt|relative_url}}
 [planttext]: https://www.planttext.com/
