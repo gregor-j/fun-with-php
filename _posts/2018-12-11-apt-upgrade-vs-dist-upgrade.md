@@ -7,8 +7,6 @@ author: "Gregor J."
 tags: linux debian
 ---
 
-Aus der Kategorie "quälende Fragen zwischen Tür und Angel": _Was ist der Unterschied zwischen `apt-get upgrade` und `apt-get dist-upgrade`?_
-
 `upgrade` wird unter keinen Umständen zusätzliche Pakete installieren, oder nicht mehr benötigte deinstallieren. Dadurch können Paketaktualisierungen auch zurückgehalten werden, weil diese eben entweder zusätzliche Pakete benötigen, oder bisher installierte eben nicht mehr. `dist-upgrade` hingegen löst alle Abhängigkeiten auf und installiert alle Paketaktualisierungen mit allen Abhängigkeiten.
 
 Quelle: `man apt-get`

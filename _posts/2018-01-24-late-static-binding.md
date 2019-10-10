@@ -7,8 +7,6 @@ author: "Gregor J."
 tags: php
 ---
 
-_Hilfe, ich kann trotz Vererbung meine statische Funktion nicht aufrufen!_
-
 ```php
 <?php
 class One

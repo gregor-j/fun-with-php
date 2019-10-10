@@ -7,8 +7,6 @@ author: "Gregor J."
 tags: shell
 ---
 
-_Hilfe, ich habe kein `cron`! Wie kann ich einen Prozess bloss regelmäßig laufen lassen?_
-
 Shell script to the rescue...
 ```bash
 #!/bin/sh

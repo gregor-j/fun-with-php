@@ -7,8 +7,6 @@ author: "Gregor J."
 tags: phpunit php codequality
 ---
 
-Die erbittertsten Feinde, um bei PHPUnit eine _code coverage_ von 100% zu erreichen, sind Exceptions, die geworfen werden, wenn Systemressourcen fehlen, oder ebensolche Exceptions in privaten Funktionen.
-
 PHPUnit hat zu diesem Zweck den _tag_ `@codeCoverageIgnore` mit dem man die Berechnung zur _code coverage_ aussetzen kann.
 
 _Code coverage_ für ein paar untestbare Zeilen aussetzen:

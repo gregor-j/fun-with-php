@@ -7,8 +7,6 @@ author: "Gregor J."
 tags: composer
 ---
 
-_Was ist der Unterschied zwischen `composer install` und `composer update`, und warum soll ich die `composer.lock` in das Repository einchecken?_
-
 Ein `composer update` sollte man nur machen, wenn man _alle_ Pakete in dem Projekt auf die aktuellste Version (gem. Einschränkungen aus der `composer.json`) bringen möchte. Danach muss das Projekt sehr genau getestet werden, um zu sehen, ob sich durch das Update, etwas geändert hat, das nun _Nebenwirkungen_ verursacht.
 
 Es gibt die Möglichkeit mit `composer.phar update <package name>` _nur ein bestimmtes Paket_ zu aktualisieren, die anderen Pakete aber unangetastet zu lassen. Um _ein bestimmtes Paket mit all seinen Abhängigkeiten_ zu aktualisieren, kann noch die Option `--with-dependencies` hinzugefügt werden.

@@ -7,8 +7,6 @@ author: "Gregor J."
 tags: phpunit php codequality
 ---
 
-_Woher weiß ich, dass meine Tests den gesamten Code prüfen?_
-
 Um zu sehen, zu wie viel Prozent der eigene Code von unit tests abgedeckt wird, 
 Erst in der `phpunit.xml` die Verzeichnisse mit dem eigenen Code als Filter angeben:
 ```xml

@@ -8,6 +8,10 @@ layout: default
 
 <p class="view">von {{ page.author | default: site.author }}</p>
 
+{% if page.bait %}
+<p><em>{{ page.bait }}</em></p>
+{% endif %}
+
 {{content}}
 
 {% if page.tags %}

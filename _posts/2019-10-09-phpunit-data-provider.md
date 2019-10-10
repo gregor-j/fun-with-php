@@ -7,8 +7,6 @@ author: "Gregor J."
 tags: phpunit php
 ---
 
-_Wie kann ich mit PHPUnit effizient unterschiedliche Parameter für meine Funktion testen?_
-
 In folgendem Fall wird das [Beispiel zu Data Provider von der PHPUnit Website][1] verwendet.
 
 Es soll getestet werden, ob die Addition in PHP das gewünschte Ergebnis bringt (spoiler: ja, tut es). Dazu wird in

@@ -7,8 +7,6 @@ author: "Gregor J."
 tags: php
 ---
 
-_RTFM, oder die Untiefen beim Zusammenführen zweier Arrays in PHP erklärt._
-
 Das Zusammenführen (_merge_) zweier Arrays in PHP kann zu unerwarteten Ergebnissen führen.
 
 Gehen wir von folgenden zwei eigentlich assoziativ verwendeten Arrays mit numerischen Schlüsseln aus:
