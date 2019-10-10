@@ -21,6 +21,6 @@ Hier der Ablauf der beiden `composer` Befehle:
 
 <small>Der [Quelltext der Grafik][res-txt], wie er mit [Planttext][planttext] erzeugt wurde.</small>
 
-[res-svg]: {{ site.url }}/ressource/composer-install-vs-update.svg
-[res-txt]: {{ site.url }}/ressource/composer-install-vs-update.txt
+[res-svg]: {{ /ressource/composer-install-vs-update.svg | relative_url }}
+[res-txt]: {{ /ressource/composer-install-vs-update.txt | relative_url }}
 [planttext]: https://www.planttext.com/
