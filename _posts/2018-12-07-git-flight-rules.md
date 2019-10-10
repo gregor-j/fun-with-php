@@ -9,4 +9,4 @@ tags: git
 
 🎶 [**GIT flight rules!**](https://github.com/k88hudson/git-flight-rules/blob/master/README.md)
 
-_Flight Rules are the hard-earned body of knowledge recorded in manuals that list, step-by-step, what to do if X occurs, and why._
+> Flight Rules are the hard-earned body of knowledge recorded in manuals that list, step-by-step, what to do if X occurs, and why.
