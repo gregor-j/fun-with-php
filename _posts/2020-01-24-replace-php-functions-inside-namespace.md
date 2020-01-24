@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PHP Funktionen in Namespaces ersetzen"
-bait: "Wie kann ich eine Methode testen, die globale PHP Funktionen verwendet, wie z.B. `fsockopen`?"
+bait: "Wie kann ich eine Methode testen, die globale PHP Funktionen verwendet, wie z.B. fsockopen?"
 date: 2020-01-24
 author: "Gregor J."
 tags: phpunit php
