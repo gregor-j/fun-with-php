@@ -18,7 +18,7 @@ Voraussetzung ist ein Ubuntu 18.04 LTS als Server mit einem Account mit sudo-Rec
 ## SSH
 
 Installation des SSH Servers am Server:
-```shell script
+```
 sudo apt install ssh-server
 ```
 
@@ -31,12 +31,12 @@ Abgesehen von der IP-Adresse des Server müssen folgende Einstellungen in PuTTY 
 * Connection → SSH → Auth → Private key file for authentication: hier muß der zuvor erzeugte private key ausgewählt werden.
 * Connection → SSH → Tunnels: unter Source port gehört `5903` und unter Destination `127.0.0.1:5903` eingetragen. Dann mit _Add_ den Tunnel hinzufügen.
 * Connection → SSH Remote command (optional):
-```shell script
+```
 echo -n "Waiting for client..."; until [ $(ss sport = :5903 | grep -nc "ESTAB") -gt 0 ]; do sleep 1; echo -n "."; done; echo "OK"
 ```
 
 Am Server muss noch die Passwort-Authentifizierung deaktiviert werden:
-```shell script
+```
 sudo sed -i '/^PasswordAuthentication.*/d' /etc/ssh/sshd_config
 echo "PasswordAuthentication no" | sudo tee -a /etc/ssh/sshd_config
 ```
@@ -44,12 +44,12 @@ echo "PasswordAuthentication no" | sudo tee -a /etc/ssh/sshd_config
 ## VNC
 
 Installation von [TigerVNC] und [Xfce] am Server:
-```shell script
+```
 sudo apt install tigervnc-standalone-server xfce4
 ```
 
 In `~/.vnc/xstartup` wird der Start des VNC Servers festgelegt:
-```shell script
+```
 #!/bin/sh
 
 export XKL_XMODMAP_DISABLE=1
@@ -62,13 +62,13 @@ startxfce4 &
 ```
 
 VNC Server mit einer Auflösung von 1280x1024 auf Port 5903 (also `:3`) starten:
-```shell script
+```
 vncserver -geometry 1280x1024 -localhost yes -SecurityType None -name HomeOffice :3
 ```
 Die Auflösung jener des Windows Clients anpassen.
 
 Der VNC Server kann folgendermaßen wieder gestoppt werden:
-```shell script
+```
 vncserver -kill :3
 ```
 
