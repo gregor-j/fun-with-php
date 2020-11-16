@@ -30,4 +30,6 @@ Die Ausgabe der Latenzzeiten erfolgt dann tabellarisch:
 
 Das Ergebnis lässt sich in einer Tabellenkalkulation, wie z.B. jener von LibreOffice, als CSV mit fixen Abständen importieren und in eine hübsche Grafik verwandeln.
 
-![Latency over 8h](/assets/latency.png)   
+![Latency over 8h][latency.png]   
+
+[latency.png]: {{"/assets/latency.png"|absolute_url}}
