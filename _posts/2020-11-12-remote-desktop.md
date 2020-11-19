@@ -92,6 +92,27 @@ Das Script geht davon aus, dass
 3. die VNC Konfigurationsdatei für TigerVNC unter `C:\TigerVnc\vnctunnel.tigervnc` gespeichert wurde.
 Die Pfade bitte realen Bedingungen anpassen.
 
+## Windows Script II
+
+Es kann optional die ganze Konfiguration von PuTTY und TigerVNC auch nur über Scripte gelöst werden. _Bitte beachten, dass ich immer von Display `:3` ausgehe, also VNC Port `5903`._
+
+Auf dem Server folgendes Script in `/usr/local/bin/vncclientwait.sh` anlegen und mit `chmod +x /usr/local/bin/vncclientwait.sh` ausführbar machen:
+```
+#!/bin/bash
+echo -n "Waiting for VNC..."
+until [ $(ss sport = :5903 | grep -nc "ESTAB") -gt 0 ]; do
+	sleep 1
+	echo -n "."
+done
+echo "OK"
+```
+
+Auf dem Windows Client folgendes Script im selben Verzeichnis wie `plink.exe` und `vncviewer.exe` ablegen und die Platzhalter ersetzen:
+```
+@echo off
+start /b cmd /c plink.exe -batch -ssh -i <PPK-FILE> -L 5903:127.0.0.1:5903 <USER>@<HOST> vncclientwait.sh && vncviewer.exe -FullScreen -RemoteResize -SecurityTypes None -MenuKey F1 127.0.0.1:3
+```
+
 ## Abschließende Bemerkungen
 
 Ein Klick auf die Verknüpfung zum Windows Script und der remote desktop wird gestartet. Bequemer wird es nicht.
