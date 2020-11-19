@@ -39,6 +39,7 @@ Am Server muss noch die Passwort-Authentifizierung deaktiviert werden:
 ```
 sudo sed -i '/^PasswordAuthentication.*/d' /etc/ssh/sshd_config
 echo "PasswordAuthentication no" | sudo tee -a /etc/ssh/sshd_config
+service ssh restart
 ```
 
 ## VNC
