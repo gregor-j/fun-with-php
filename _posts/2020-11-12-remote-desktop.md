@@ -77,6 +77,7 @@ Auf dem Windows Client den VNC viewer von [TigerVNC] herunterladen, folgendes ko
 * Options → Input → Menu key: F1 (im Gegensatz zur voreingestellten F8 Taste kommt F1 beim Programmieren nicht so häufig zum Einsatz...)
 * Options → Security: Sowohl _Encryption_ als auch _Authentication_ None, weil die Verbindung durch SSH getunnelt wird und damit niemals localhost verlässt.
 * Options → Screen: _Full-screen mode_ anhaken. Mit F1 kann der Full-screen mode wieder verlassen werden.
+* Options → Screen: _Resize remote session to the local window_ (optional) anhaken, wenn die Auflösung (1280x1024) der des VNC Viewers am jeweiligen Windows Client angepasst werden soll.
 
 ## Windows Script
 
