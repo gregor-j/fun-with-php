@@ -19,7 +19,7 @@ Voraussetzung ist ein Ubuntu 18.04 LTS als Server mit einem Account mit sudo-Rec
 
 Installation des SSH Servers am Server:
 ```
-sudo apt install ssh-server
+sudo apt install openssh-server
 ```
 
 Wenn die Berechtigungen fehlen, um [PuTTY] zu installieren, kann auch `putty.zip` heruntergeladen und in ein beliebiges Verzeichnis entpackt werden.
