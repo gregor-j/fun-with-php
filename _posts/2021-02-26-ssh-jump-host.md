@@ -56,7 +56,7 @@ werden.
 
 ```shell
 gregor@workstation $ ssh -J server2 server1
-Last login: Thu Feb 26 08:32:17 2021 from server2
+Last login: Thu Feb 26 08:33:01 2021 from workstation
 gregor@server1 $ 
 ```
 
