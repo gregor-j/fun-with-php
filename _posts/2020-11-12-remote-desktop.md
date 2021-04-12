@@ -54,11 +54,9 @@ In `~/.vnc/xstartup` wird der Start des VNC Servers festgelegt:
 #!/bin/sh
 
 export XKL_XMODMAP_DISABLE=1
-unset SESSION_MANAGER
-unset DBUS_SESSION_BUS_ADDRESS
 [ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
 [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
-eval `dbus-launch --exit-with-session --sh-syntax`
+dbus-update-activation-environment --all --systemd
 startxfce4 &
 ```
 
