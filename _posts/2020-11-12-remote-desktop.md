@@ -75,6 +75,8 @@ Mit `puttygen.exe` einen 4096 Bit großen RSA Schlüssel erzeugen und z. B. als
 
 Den public key aus dem Feld `Public key for pasting into OpenSSH authorized_keys file` heraus kopieren und in die Datei `~/.ssh/authorized_keys` auf dem Linux Server speichern.
 
+![Screenshot of PuTTY Key Generator][putty-key-gen]
+
 ## Windows Batch Script
 
 Schließlich folgendes Batch Script z. B. als `LinuxPC.cmd` ablegen, und auf den Desktop, das Startmenü oder wohin auch immer verlinken:
@@ -128,3 +130,4 @@ Weil der VNC Server nur am `localhost` auf Verbindungen wartet, braucht es keine
 [PuTTY]: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 [TigerVNC]: https://tigervnc.org/
 [Xfce]: https://xfce.org/
+[putty-key-gen]: {{"/assets/putty-key-gen.png"|absolute_url}}
