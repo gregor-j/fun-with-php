@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "CakePHP 2.x Containable Behavior"
-bait: "Wer CakePHP 2.x models mit zig `belongsTo` und `hasMany` Verknüpfungen hat,
-und `recursive = 2` an einen Wert zwei Verknüpfungen weiter kommt, sollte sich
-das Containable Behavior mal genauer ansehen."
+bait: "Wer CakePHP 2.x models mit zig `belongsTo`, `hasMany`, etc. Verknüpfungen
+hat, und `recursive = 2` an einen Wert zwei Verknüpfungen weiter kommt, sollte
+sich das Containable Behavior mal genauer ansehen."
 date: 2021-07-07
 author: "Gregor J."
 tags: php cakephp
@@ -73,4 +73,4 @@ $participants = [
 Mehr Details finden sich im CakePHP 2.x Cookbook unter [Containable Behavior].
 
 [Containable Behavior]: https://book.cakephp.org/2/en/core-libraries/behaviors/containable.html
-[er-diagram]: https://www.planttext.com/api/plantuml/svg/TP91ZeCm34NtFeLt8p62C_GcA4FSOas8eyIbQWjtdq1RLAQGLUpuFzjVEIGrKS-TWozisH9gIvY2ACnHmx5n1FdHzC8MGvGVHrt22skBnfySMMoYN18UYHJIB_jWekdGiIUz1aA9sif4IARFQEaclca871qLLJ3ogLMq7AbH5Wz0NbclU4uK4zu1yocGxNmfoqTSM4x1cQit7HN5dAkg2iP5RK8GzjhbCDM193Zwp_f-BwgNvDItNhVRHtyogN-ZBUFEDYll33jhDbYJu2QUFd1PvRPHByc-Sw-AjVpXzY1bETotp8CjGyUXB6LObQ_gS9numtC_UAuvgN9ocHJWGDxcF_W7
+[er-diagram]: https://www.planttext.com/api/plantuml/svg/TP91ZeCm34NtFeLt8p62C_GcA4FSOas8eyIbOWftdq1RL5J8AdR-Vt6-Safgebux1r_OiYNKbZ05KLYgXcFZ2FAXwOKjXYW_Zhg4DzOMZRyuijX4kIKy4ocaN_R1HDEXOqyw14A9sifCIARFQEbclca879qLLJ3ofLMq7AbH5Wz0Nba7l2QA2U-0UHN8TjcKvQCkBAVWpE1DHqMnzAggWcbrcn24lNQvJFKkwljTKw_DMLjlRpicVpAfVwEjqoufAn_CkdXsMBFXJpnzuBBBxQDUbkFWNegj_P7GA6KvtdUoWvqufx4iPTo8DpASPjhuV1qy7pcxSdET4-14tkOF-0y0
