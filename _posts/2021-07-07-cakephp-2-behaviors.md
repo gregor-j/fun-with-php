@@ -32,7 +32,9 @@ $participants = $this->AppointmentsUser->find('all', [
             'fields' => ['Appointment.starttime'],
             'Event' => [
                 'fields' => ['Event.title'],
-                'Timezone' => ['fields' => 'Timezone.timezone']
+                'Timezone' => [
+                    'fields' => 'Timezone.timezone'
+                ]
             ]
         ],
         'User' => ['fields' => ['User.displayname']]
@@ -45,7 +47,7 @@ Ergebnis:
 
 ```php
 $participants = [
-    [
+    0 => [
         'AppointmentsUser' => [
             'id' => '10000'
         ],
