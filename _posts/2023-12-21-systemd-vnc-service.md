@@ -19,7 +19,7 @@ Der VNC-Server, wie z.B. TigerVNC, muss auf einem Ubuntu 20.04 oder neuer instal
 
 Wir legen eine [Unit-Datei] im Verzeichnis `~/.config/systemd/user/vnc@.service` an.
 
-```unit file (systemd)
+```
 [Unit]
 # Die Beschreibung des Services. 
 # Der Platzhalter `%i` steht dabei für den Parameter, der an den Service-Namen
