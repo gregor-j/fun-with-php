@@ -8,9 +8,10 @@ tags: ssh linux ubuntu luks
 ---
 
 Diese Anleitung erklärt, wie eine mit LUKS verschlüsselte Festplatte an einem
-in einem physisch nicht erreichbaren Ort (also in Corona-Zeiten: _im Büro_),
-aus der Ferne entschlüsselt werden kann. Die Anleitung wurde für Ubuntu 18.04
-LTS geschrieben.
+in einem physisch nicht erreichbaren Ort, aus der Ferne entschlüsselt werden
+kann. Die Anleitung wurde für Ubuntu 22.04 LTS geschrieben.
+
+_Danke an Josef für das Zusammentragen der Änderungen für Ubuntu 22.04 LTS!_
 
 Dazu wird ein minimaler SSH Server namens [dropbear] ins initramfs installiert
 und ein script zur Eingabe des Passworts bereitgestellt. Das initramfs ist
@@ -30,7 +31,7 @@ hat, als der auf deinem entschlüsselten System laufende OpenSSH Server.
 ## Installation fehlender Pakete
 
 ```shell
-sudo apt install dropbear busybox
+sudo apt install dropbear-initramfs
 ```
 
 ## Busybox und Dropbear aktivieren
@@ -56,10 +57,10 @@ DROPBEAR=y
 ## Dropbear konfigurieren
 
 Die host keys und die Konfigurationsdatei von Dropbear liegt in 
-`/etc/dropbear-initramfs/`, also wechseln wir dorthin.
+`/etc/dropbear/initramfs/`, also wechseln wir dorthin.
 
 ```shell
-cd /etc/dropbear-initramfs/
+cd /etc/dropbear/initramfs/
 ```
 
 Die host keys sollten bereits automatisch bei der Installation generiert worden
@@ -80,7 +81,7 @@ cp ~/.ssh/authorized_keys .
 Die Start-Optionen von Dropbear `DROPBEAR_OPTIONS` gehören noch angepasst:
 
 ```shell
-sudo vi config
+sudo vi dropbear.conf
 ```
 
 Folgende Parameter müssen gesetzt werden:
@@ -146,7 +147,7 @@ sudo systemctl disable dropbear
 
 ## GRUB Splash Screen deaktivieren
 
-Weil der Splash Screen von GRUB die Passwort Eingabe blockieren würde, muss er
+Weil der Splash Screen von GRUB die Passworteingabe blockieren würde, muss er
 deaktiviert werden.
 
 ```shell
